@@ -1,0 +1,28 @@
+# Training artifacts and model weights
+experiments/results/
+experiments/checkpoints/
+results/
+runs/
+logs/
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.npz
+*.log
+# Local environment and credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.cache/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Original downloads are not part of the curated tomato subset
+downloads/
